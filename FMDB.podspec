@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.default_subspec = 'standard'  
 
-  # use the built-in library version of sqlite3
+
   s.subspec 'standard' do |ss|
     ss.library = 'sqlite3'
     ss.source_files = 'src/fmdb/FM*.{h,m}'
